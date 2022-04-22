@@ -42,7 +42,6 @@ export const bodyTwelve = (id) => `{
     "stats":[{
         "type":"and",
         "filters":[
-    
             {"id":"enchant.stat_3086156145","value":{"min":12,"max":12},"disabled":false},
             {"id":"enchant.stat_3948993189","value":{"option":${id}},"disabled":false}
     
